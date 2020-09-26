@@ -376,6 +376,7 @@ local MUTATORS = {
                     if generic_replacement then
                         local dummy_agent = Agent.CreateDummyAgent(generic_replacement)
                         replacement.disguise_agent = dummy_agent
+                        replacement.params = self.userdata.random_params
                     end
                 end
             end,
@@ -418,6 +419,7 @@ local MUTATORS = {
                     if generic_replacement then
                         replacement.new_content_id = generic_replacement
                         replacement.new_skin = false
+                        replacement.params = self.userdata.random_params
                     end
                 end
             end,
