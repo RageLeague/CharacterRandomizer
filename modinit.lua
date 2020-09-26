@@ -143,13 +143,13 @@ local MOD_OPTIONS = {
         },
     },
     {
-        title = "Retain Faction",
+        title = "Retain Faction(UI only)",
         spinner = true,
         key = "retain_faction",
         default_value = false,
         values =
         {
-            { name="False", desc="Agents don't retain their original faction after replacement.", data = false },
+            { name="False", desc="Agents don't display their original faction after replacement, but will still keep their original faction.", data = false },
             { name="True", desc="Agents retain their original faction after replacement, which will be reflected on their portrait.", data = true },
         },
     },
@@ -200,7 +200,7 @@ local MOD_OPTIONS = {
 }
 return {
     alias = "CharacterRandomizer",
-    version = "0.1.0",
+    version = "0.1.1",
 
     mod_options = MOD_OPTIONS,
 

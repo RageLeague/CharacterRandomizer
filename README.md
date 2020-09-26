@@ -46,6 +46,11 @@ If you are in the Experimental Branch, you can go to the "Mods" tabs in the opti
 
 ## Changelog
 
+### 0.1.1
+
+* Now replace agent always keep their original faction, because otherwise Rook's story will softlock because your handler's faction is neither Rise or Spark Baron. The old "Retain Faction" setting is UI only now.
+* Some other minor optimizations.
+
 ### 0.1.0
 
 * Mod released!

@@ -48,9 +48,8 @@ return {
     -- Set this to false for a *slightly* more balanced run, as agents with inappropriate renown/
     -- combat strength might get filtered out of quests.
     retain_strength = true,
-    -- Whether a replaced agent retains the original faction. It might look weird on the
-    -- portrait if set to true, but it makes the run more chaotic, as agents normally
-    -- from other factions can be casted to a quest requiring specific faction member.
+    -- Whether a replaced agent retains the original faction.
+    -- UI only. Otherwise Rook's contact quests won't work.
     retain_faction = false,
 
     -- Whether to replace an agent's loc table with the disguise.
