@@ -209,4 +209,5 @@ return {
 
     title = "Character Randomizer",
     description = "This mod adds two major class of mutators: Agent Randomizer and Skin Randomizer. With tons of customizations on the randomization process, this mod will break all rules of the existing game.",
+    previewImagePath = "preview.png",
 }
