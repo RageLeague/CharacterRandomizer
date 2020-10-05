@@ -2,7 +2,7 @@
 
 A mod that allows you to break the natural order of the game by randomizing the characters.
 
-Version: 0.1.2
+Version: 0.2.0
 
 Author: RageLeague
 
@@ -50,7 +50,7 @@ If you are in the Experimental Branch, you can go to the "Mods" tabs in the opti
 
 ## Changelog
 
-### 0.1.2
+### 0.2.0
 
 * Add an additional option: Use new character animation. You can now select whether you want to use the original character's animations or use the disguised ones. If you want to see Rook holding a shotgun, or Fssh with rocket legs, now you can!
 * Added localizations for Chinese Simplified and Chinese Traditional. This even works with modded languages, as long as the modded language has zh_HANT or zh_HANS defined as one of the default languages.

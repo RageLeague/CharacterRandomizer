@@ -265,7 +265,7 @@ local MOD_OPTIONS = {
 }
 return {
     alias = "CharacterRandomizer",
-    version = "0.1.2",
+    version = "0.2.0",
 
     mod_options = MOD_OPTIONS,
 
