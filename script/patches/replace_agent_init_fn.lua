@@ -34,7 +34,7 @@ if not rawget(_G, patch_id) then
             self.voice_actor = self.disguise_agent.voice_actor
             if replacement.params then
                 local p = replacement.params
-                local fields = {"disguise_loc_table", "disguise_portrait", "disguise_faction"}
+                local fields = {"disguise_loc_table", "disguise_portrait", "disguise_faction", "use_new_anim"}
                 for i, id in ipairs(fields) do
                     if p[id] then
                         self.disguise_data[id] = true

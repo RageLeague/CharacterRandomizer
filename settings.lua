@@ -68,6 +68,9 @@ return {
     -- Turn this on if you want to make the discovery of an agent's true identity harder.
     obfuscate_social_grafts = false,
 
+    -- When used on a skin randomizer, whether to use the skin's animation, or the original character's animation.
+    use_new_anim = false,
+
     -- When using the skin randomizer, force a few particular mapping so that a specific agent
     -- is guaranteed to be replaced by another agent.
     force_skin_map = {

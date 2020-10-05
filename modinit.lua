@@ -200,6 +200,17 @@ local MOD_OPTIONS = {
             { name="True", desc="When a skin randomizer mutator is selected, agents will hide their boons, banes, and death loots until you acquire them so you can't deduce their identity based on that.", data = true },
         },
     },
+    {
+        title = "Use New Character Animation(Skin Randomizer)",
+        spinner = true,
+        key = "use_new_anim",
+        default_value = false,
+        values =
+        {
+            { name="False", desc="Agents will use their original character animations, which means they will carry their original weapon, etc. (Only applies to humanoid characters)", data = false },
+            { name="True", desc="Agents will use their disguise's character animations, which means they will carry ther disguise's weapon, etc. (Only applies to humanoid characters)", data = true },
+        },
+    },
 }
 return {
     alias = "CharacterRandomizer",
