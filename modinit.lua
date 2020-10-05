@@ -9,6 +9,12 @@ local function OnNewGame(mod, game_state)
         end
     end
 end
+local function OnPreLoad(mod)
+    for k, filepath in ipairs( filepath.list_files( "CharacterRandomizer:script/patches", "*.lua", true )) do
+        local name = filepath:match( "(.+)[.]lua$" )
+        require(name)
+    end
+end
 local function OnLoad(mod)
     rawset(_G, "CURRENT_MOD_ID", mod.id)
     Content.AddStringTable("CHARACTER_RANDOMIZER", {
@@ -17,11 +23,8 @@ local function OnLoad(mod)
             RANDOM_SEED = "<#HILITE>(A random seed will be assigned at the start of a new run)</>",
         },
     })
-    for k, filepath in ipairs( filepath.list_files( "CharacterRandomizer:script/patches", "*.lua", true )) do
-        local name = filepath:match( "(.+)[.]lua$" )
-        require(name)
-    end
-    Content.ReloadConversation()
+    
+    -- Content.ReloadConversation()
     -- so it can store the current mod id locally
     require "CharacterRandomizer:script/collect_settings"
     require "CharacterRandomizer:script/mutators"
@@ -66,7 +69,7 @@ local MOD_OPTIONS = {
     {
         title = "Separate Uniques",
         spinner = true,
-        key = "separate_boss",
+        key = "separate_unique",
         default_value = false,
         values =
         {
@@ -112,7 +115,7 @@ local MOD_OPTIONS = {
     {
         title = "Allow Not In Compendium",
         spinner = true,
-        key = "allow_beasts",
+        key = "allow_not_in_compendium",
         default_value = false,
         values =
         {
@@ -204,6 +207,7 @@ return {
 
     mod_options = MOD_OPTIONS,
 
+    OnPreLoad = OnPreLoad,
     OnLoad = OnLoad,
     OnNewGame = OnNewGame,
 

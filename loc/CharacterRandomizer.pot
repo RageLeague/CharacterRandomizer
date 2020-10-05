@@ -1,0 +1,360 @@
+﻿#: CharacterRandomizer.ALLOW_BEASTS.DESC1
+msgctxt "CharacterRandomizer.ALLOW_BEASTS.DESC1"
+msgid "Non-sentients who can't talk are not randomized."
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_BEASTS.DESC2
+msgctxt "CharacterRandomizer.ALLOW_BEASTS.DESC2"
+msgid "Non-sentients who can't talk are randomized among themselves."
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_BEASTS.TITLE
+msgctxt "CharacterRandomizer.ALLOW_BEASTS.TITLE"
+msgid "Allow Beasts"
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC1
+msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC1"
+msgid "Non-sentients who can talk are not randomized with sentient NPCs."
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC2
+msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC2"
+msgid "Non-sentients who can talk are randomized with sentient NPCs. This doesn't allow beasts to be randomized with sentient NPCs."
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_NON_SENTIENTS.TITLE
+msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.TITLE"
+msgid "Allow Non-Sentients"
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC1
+msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC1"
+msgid "Don't allow NPCs who aren't in the compendium to be randomized."
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC2
+msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC2"
+msgid "Allow NPCs who aren't in the compendium to be randomized within their respective groups."
+msgstr ""
+
+#: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.TITLE
+msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.TITLE"
+msgid "Allow Not In Compendium"
+msgstr ""
+
+#: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC1
+msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC1"
+msgid "Don't randomize bosses."
+msgstr ""
+
+#: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC2
+msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC2"
+msgid "Randomize all bosses in a single group, without separating them by strength."
+msgstr ""
+
+#: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC3
+msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC3"
+msgid "All bosses with combat strength 3 or less are grouped together while randomizing, and so are all bosses with combat strength 4 or more."
+msgstr ""
+
+#: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.TITLE
+msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.TITLE"
+msgid "Group By Strength(Bosses)"
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_FACTION.DESC1
+msgctxt "CharacterRandomizer.DISGUISE_FACTION.DESC1"
+msgid "Agents will not diguise their faction."
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_FACTION.DESC2
+msgctxt "CharacterRandomizer.DISGUISE_FACTION.DESC2"
+msgid "Agents will disguise their faction with the faction of the new skin on the portrait or in the compendium, but their true faction does not change."
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_FACTION.TITLE
+msgctxt "CharacterRandomizer.DISGUISE_FACTION.TITLE"
+msgid "Disguise Faction"
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_LOC_TABLE.DESC1
+msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.DESC1"
+msgid "Agents will retain their name, title, etc. after getting a new skin."
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_LOC_TABLE.DESC2
+msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.DESC2"
+msgid "Agents will disguise their name, title, etc. with the name, title, etc. of the new skin."
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_LOC_TABLE.TITLE
+msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.TITLE"
+msgid "Disguise Loc Table"
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_PORTRAIT.DESC1
+msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.DESC1"
+msgid "Agents will retain the original portrait, even after getting a new skin."
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_PORTRAIT.DESC2
+msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.DESC2"
+msgid "Agents will disguise their portrait with the portrait of the new skin."
+msgstr ""
+
+#: CharacterRandomizer.DISGUISE_PORTRAIT.TITLE
+msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.TITLE"
+msgid "Disguise Portrait"
+msgstr ""
+
+#: CharacterRandomizer.GROUP_BY_STRENGTH.DESC1
+msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC1"
+msgid "Don't randomize NPCs."
+msgstr ""
+
+#: CharacterRandomizer.GROUP_BY_STRENGTH.DESC2
+msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC2"
+msgid "Randomize all NPCs in a single group, without separating them by strength."
+msgstr ""
+
+#: CharacterRandomizer.GROUP_BY_STRENGTH.DESC3
+msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC3"
+msgid "NPCs will be randomized with other NPCs who are up to 1.5 combat strengths with each other."
+msgstr ""
+
+#: CharacterRandomizer.GROUP_BY_STRENGTH.DESC4
+msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC4"
+msgid "NPCs will be randomized with other NPCs who are up to 0.5 combat strengths with each other."
+msgstr ""
+
+#: CharacterRandomizer.GROUP_BY_STRENGTH.TITLE
+msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.TITLE"
+msgid "Group By Strength"
+msgstr ""
+
+#: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC1
+msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC1"
+msgid "Agents will still display their boons, banes, and death loots."
+msgstr ""
+
+#: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC2
+msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC2"
+msgid "When a skin randomizer mutator is selected, agents will hide their boons, banes, and death loots until you acquire them so you can't deduce their identity based on that."
+msgstr ""
+
+#: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.TITLE
+msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.TITLE"
+msgid "Obfuscate Social Grafts"
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_CONTENT_ID.DESC1
+msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.DESC1"
+msgid "Agents don't retain their original content ID after replacement. (Not Recommended)"
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_CONTENT_ID.DESC2
+msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.DESC2"
+msgid "Agents retain their original content ID after replacement. (Recommended)"
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_CONTENT_ID.TITLE
+msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.TITLE"
+msgid "Retain Content ID"
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_FACTION.DESC1
+msgctxt "CharacterRandomizer.RETAIN_FACTION.DESC1"
+msgid "Agents don't display their original faction after replacement, but will still keep their original faction."
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_FACTION.DESC2
+msgctxt "CharacterRandomizer.RETAIN_FACTION.DESC2"
+msgid "Agents retain their original faction after replacement, which will be reflected on their portrait."
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_FACTION.TITLE
+msgctxt "CharacterRandomizer.RETAIN_FACTION.TITLE"
+msgid "Retain Faction(UI only)"
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_STRENGTH.DESC1
+msgctxt "CharacterRandomizer.RETAIN_STRENGTH.DESC1"
+msgid "Agents don't retain their original renown and combat strength after replacement, making combat/negotiation balancing reflect their true strengths."
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_STRENGTH.DESC2
+msgctxt "CharacterRandomizer.RETAIN_STRENGTH.DESC2"
+msgid "Agents retain their original renown and combat strength after replacement, which makes NPC randomizations have effects, even after the initial random assignment."
+msgstr ""
+
+#: CharacterRandomizer.RETAIN_STRENGTH.TITLE
+msgctxt "CharacterRandomizer.RETAIN_STRENGTH.TITLE"
+msgid "Retain Strength"
+msgstr ""
+
+#: CharacterRandomizer.SEPARATE_BOSS.DESC1
+msgctxt "CharacterRandomizer.SEPARATE_BOSS.DESC1"
+msgid "Allow bosses and other NPCs to mix when randomizing."
+msgstr ""
+
+#: CharacterRandomizer.SEPARATE_BOSS.DESC2
+msgctxt "CharacterRandomizer.SEPARATE_BOSS.DESC2"
+msgid "Separate bosses and other NPCs into different random groups."
+msgstr ""
+
+#: CharacterRandomizer.SEPARATE_BOSS.TITLE
+msgctxt "CharacterRandomizer.SEPARATE_BOSS.TITLE"
+msgid "Separate Bosses"
+msgstr ""
+
+#: CharacterRandomizer.SEPARATE_UNIQUE.DESC1
+msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.DESC1"
+msgid "Allow unique NPCs and other NPCs to mix when randomizing."
+msgstr ""
+
+#: CharacterRandomizer.SEPARATE_UNIQUE.DESC2
+msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.DESC2"
+msgid "Separate unique NPCs and other NPCs into different random groups. If Separate Bosses is also turned on, a unique boss NPC will be grouped with bosses."
+msgstr ""
+
+#: CharacterRandomizer.SEPARATE_UNIQUE.TITLE
+msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.TITLE"
+msgid "Separate Uniques"
+msgstr ""
+
+#: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC1
+msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC1"
+msgid "Don't randomize unique NPCs."
+msgstr ""
+
+#: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC2
+msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC2"
+msgid "Randomize all unique NPCs in a single group, without separating them by strength."
+msgstr ""
+
+#: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC3
+msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC3"
+msgid "Unique NPCs will be randomized with other Unique NPCs who are up to 1.5 combat strengths with each other."
+msgstr ""
+
+#: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC4
+msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC4"
+msgid "Unique NPCs will be randomized with other Unique NPCs who are up to 0.5 combat strengths with each other."
+msgstr ""
+
+#: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.TITLE
+msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.TITLE"
+msgid "Group By Strength(Uniques)"
+msgstr ""
+
+#: GRAFT.OBFUSCATE_SOCIAL_GRAFTS.DESC
+msgctxt "GRAFT.OBFUSCATE_SOCIAL_GRAFTS.DESC"
+msgid "When this mutator is on, all social grafts(boons/banes) and death loots are hidden even if you unlocked them previously."
+msgstr ""
+
+#: GRAFT.OBFUSCATE_SOCIAL_GRAFTS.NAME
+msgctxt "GRAFT.OBFUSCATE_SOCIAL_GRAFTS.NAME"
+msgid "Obfuscate Social Grafts"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT.DESC
+msgctxt "GRAFT.RANDOMIZER_AGENT.DESC"
+msgid "Whenever an NPC will be created, another random NPC will be created in their place instead. This is the base mutator for other Agent Randomizer mutators, and is completely customizable."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT.NAME
+msgctxt "GRAFT.RANDOMIZER_AGENT.NAME"
+msgid "Agent Randomizer"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT_BALANCED.DESC
+msgctxt "GRAFT.RANDOMIZER_AGENT_BALANCED.DESC"
+msgid "For those who wants randomness, but doesn't want to cause a huge imbalance. Behaves like the base mutator, except bosses are separated from normal agents, and there are minor grouping by agent strengths."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT_BALANCED.NAME
+msgctxt "GRAFT.RANDOMIZER_AGENT_BALANCED.NAME"
+msgid "Agent Randomizer(Balanced)"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT_CHAOS.DESC
+msgctxt "GRAFT.RANDOMIZER_AGENT_CHAOS.DESC"
+msgid "All agents are randomized, no filtering! Behaves like the base mutator, except no separation of characters, and no grouping by agent strengths."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT_CHAOS.NAME
+msgctxt "GRAFT.RANDOMIZER_AGENT_CHAOS.NAME"
+msgid "Agent Randomizer(Chaos)"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.DESC
+msgctxt "GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.DESC"
+msgid "For those who wants the unique NPCs to be randomized, but doesn't want the generic ones to be randomized. Behaves like the base mutator, except regular NPCs are not randomized."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.NAME
+msgctxt "GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.NAME"
+msgid "Agent Randomizer(Unique Only)"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN.DESC
+msgctxt "GRAFT.RANDOMIZER_SKIN.DESC"
+msgid "Whenever an NPC will be created, another random NPC's skin will be applied. This is the base mutator for other Skin Randomizer mutators, and is completely customizable."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN.NAME
+msgctxt "GRAFT.RANDOMIZER_SKIN.NAME"
+msgid "Skin Randomizer"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_BALANCED.DESC
+msgctxt "GRAFT.RANDOMIZER_SKIN_BALANCED.DESC"
+msgid "For those who wants randomness, but still want the skins to fit the combat strength range. Behaves like the base mutator, except bosses are separated from normal agents, and there are minor grouping by agent strengths."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_BALANCED.NAME
+msgctxt "GRAFT.RANDOMIZER_SKIN_BALANCED.NAME"
+msgid "Skins Randomizer(Balanced)"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_CHAOS.DESC
+msgctxt "GRAFT.RANDOMIZER_SKIN_CHAOS.DESC"
+msgid "All skins are randomized, no filtering! Behaves like the base mutator, except no separation of characters, and no grouping by agent strengths."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_CHAOS.NAME
+msgctxt "GRAFT.RANDOMIZER_SKIN_CHAOS.NAME"
+msgid "Skins Randomizer(Chaos)"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_MASK.DESC
+msgctxt "GRAFT.RANDOMIZER_SKIN_MASK.DESC"
+msgid "For those who enjoys mystery novels or movies. Behaves like Skins Randomizer(Chaos), but all information regarding the original NPCs are obfuscated to the best of my abilities."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_MASK.NAME
+msgctxt "GRAFT.RANDOMIZER_SKIN_MASK.NAME"
+msgid "Skins Randomizer(Total Disguise)"
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.DESC
+msgctxt "GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.DESC"
+msgid "For those who wants the unique NPCs to be randomized, but doesn't want the generic ones to be randomized. Behaves like the base mutator, except regular NPCs are not randomized."
+msgstr ""
+
+#: GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.NAME
+msgctxt "GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.NAME"
+msgid "Skins Randomizer(Unique Only)"
+msgstr ""
+
+#: RANDOMIZER_STRINGS.RANDOM_SEED
+msgctxt "RANDOMIZER_STRINGS.RANDOM_SEED"
+msgid "<#HILITE>(A random seed will be assigned at the start of a new run)</>"
+msgstr ""
+
+#: RANDOMIZER_STRINGS.SEED
+msgctxt "RANDOMIZER_STRINGS.SEED"
+msgid "<#HILITE>(Seed for this run: {1}.)</>\n<#HILITE>(Seed for this mutator: {2}.)</>"
+msgstr ""
+
