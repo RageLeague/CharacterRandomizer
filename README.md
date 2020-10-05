@@ -2,11 +2,15 @@
 
 A mod that allows you to break the natural order of the game by randomizing the characters.
 
-Version: 0.1.0
+Version: 0.1.2
 
 Author: RageLeague
 
-Supported Languages: English.
+Supported Languages: English, 简体中文, 繁體中文.
+
+Expands On Mods:
+
+* 简中文本优化/Better CHS L10N (https://steamcommunity.com/sharedfiles/filedetails/?id=2234153945) (Localization).
 
 ## Mod Information
 
@@ -45,6 +49,12 @@ If you are in the Experimental Branch, you can go to the "Mods" tabs in the opti
 **Note: The customizations only has effects at the start of the run when you enabled the mutator(s). If you change the settings after starting a run, it will not affect that run.**
 
 ## Changelog
+
+### 0.1.2
+
+* Add an additional option: Use new character animation. You can now select whether you want to use the original character's animations or use the disguised ones. If you want to see Rook holding a shotgun, or Fssh with rocket legs, now you can!
+* Added localizations for Chinese Simplified and Chinese Traditional. This even works with modded languages, as long as the modded language has zh_HANT or zh_HANS defined as one of the default languages.
+* This mod loads after 简中文本优化/Better CHS L10N (https://steamcommunity.com/sharedfiles/filedetails/?id=2234153945) so that I can add localization files to this modded language. I have to convince Klei to implement the mod load order code I wrote into the base game in order for this to work, but it's totally worth it.
 
 ### 0.1.1
 

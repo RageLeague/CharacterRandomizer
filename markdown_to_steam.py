@@ -17,5 +17,7 @@ for i in string_list:
         outputstring = outputstring.replace("**", "[b]",1)
         outputstring = outputstring.replace("**", "[/b]",1)
     outputlist.append(outputstring)
-f = open("STEAM_DESC.txt", "w")
+f = open("STEAM_DESC.txt", "w", encoding="utf-8")
 f.write("\n".join(outputlist))
+# for line in outputlist:
+#     f.write(line)

@@ -1,600 +1,727 @@
-﻿#: CharacterRandomizer.ALLOW_BEASTS.DESC1
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-10-05 12:13-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
 msgctxt "CharacterRandomizer.ALLOW_BEASTS.DESC1"
 msgid "Non-sentients who can't talk are not randomized."
-msgstr ""
+msgstr "不会说话的无智慧角色不会随机替换。"
 
 #: CharacterRandomizer.ALLOW_BEASTS.DESC2
 msgctxt "CharacterRandomizer.ALLOW_BEASTS.DESC2"
 msgid "Non-sentients who can't talk are randomized among themselves."
-msgstr ""
+msgstr "不会说话的无智慧角色会在它们之中随机替换。"
 
 #: CharacterRandomizer.ALLOW_BEASTS.NAME1
 msgctxt "CharacterRandomizer.ALLOW_BEASTS.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.ALLOW_BEASTS.NAME2
 msgctxt "CharacterRandomizer.ALLOW_BEASTS.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.ALLOW_BEASTS.TITLE
 msgctxt "CharacterRandomizer.ALLOW_BEASTS.TITLE"
 msgid "Allow Beasts"
-msgstr ""
+msgstr "允许野兽"
 
 #: CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC1
 msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC1"
 msgid "Non-sentients who can talk are not randomized with sentient NPCs."
-msgstr ""
+msgstr "会说话的无智慧角色不会和有智慧角色一起随机替换。"
 
 #: CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC2
 msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.DESC2"
-msgid "Non-sentients who can talk are randomized with sentient NPCs. This doesn't allow beasts to be randomized with sentient NPCs."
+msgid ""
+"Non-sentients who can talk are randomized with sentient NPCs. This doesn't "
+"allow beasts to be randomized with sentient NPCs."
 msgstr ""
+"会说话的无智慧角色会和有智慧角色一起随机替换。这不会让野兽和有智慧的NPC一起随"
+"机替换。"
 
 #: CharacterRandomizer.ALLOW_NON_SENTIENTS.NAME1
 msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.ALLOW_NON_SENTIENTS.NAME2
 msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.ALLOW_NON_SENTIENTS.TITLE
 msgctxt "CharacterRandomizer.ALLOW_NON_SENTIENTS.TITLE"
 msgid "Allow Non-Sentients"
-msgstr ""
+msgstr "允许无智慧角色"
 
 #: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC1
 msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC1"
 msgid "Don't allow NPCs who aren't in the compendium to be randomized."
-msgstr ""
+msgstr "不允许不在图鉴的角色和其他角色一起随机替换。"
 
 #: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC2
 msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.DESC2"
-msgid "Allow NPCs who aren't in the compendium to be randomized within their respective groups."
-msgstr ""
+msgid ""
+"Allow NPCs who aren't in the compendium to be randomized within their "
+"respective groups."
+msgstr "允许不在图鉴的角色和其他相似的角色一起随机替换。"
 
 #: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.NAME1
 msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.NAME2
 msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.TITLE
 msgctxt "CharacterRandomizer.ALLOW_NOT_IN_COMPENDIUM.TITLE"
 msgid "Allow Not In Compendium"
-msgstr ""
+msgstr "允许不在图鉴的角色"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC1
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC1"
 msgid "Don't randomize bosses."
-msgstr ""
+msgstr "不随机替换BOSS。"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC2
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC2"
-msgid "Randomize all bosses in a single group, without separating them by strength."
-msgstr ""
+msgid ""
+"Randomize all bosses in a single group, without separating them by strength."
+msgstr "所有BOSS一起随机替换，不将他们按战斗力分类。"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC3
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.DESC3"
-msgid "All bosses with combat strength 3 or less are grouped together while randomizing, and so are all bosses with combat strength 4 or more."
+msgid ""
+"All bosses with combat strength 3 or less are grouped together while "
+"randomizing, and so are all bosses with combat strength 4 or more."
 msgstr ""
+"所有战斗力3及以下的BOSS互相随机替换，而所有战斗力4及以上的BOSS互相随机替换。"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.NAME1
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.NAME1"
 msgid "No Randomization"
-msgstr ""
+msgstr "无随机化"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.NAME2
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.NAME2"
 msgid "No Grouping"
-msgstr ""
+msgstr "不分组"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.NAME3
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.NAME3"
 msgid "Minor Grouping"
-msgstr ""
+msgstr "简单分组"
 
 #: CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.TITLE
 msgctxt "CharacterRandomizer.BOSS_GROUP_BY_STRENGTH.TITLE"
 msgid "Group By Strength(Bosses)"
-msgstr ""
+msgstr "按强度分类（BOSS）"
 
 #: CharacterRandomizer.DISGUISE_FACTION.DESC1
 msgctxt "CharacterRandomizer.DISGUISE_FACTION.DESC1"
 msgid "Agents will not diguise their faction."
-msgstr ""
+msgstr "角色不会遮掩他们的阵营。"
 
 #: CharacterRandomizer.DISGUISE_FACTION.DESC2
 msgctxt "CharacterRandomizer.DISGUISE_FACTION.DESC2"
-msgid "Agents will disguise their faction with the faction of the new skin on the portrait or in the compendium, but their true faction does not change."
+msgid ""
+"Agents will disguise their faction with the faction of the new skin on the "
+"portrait or in the compendium, but their true faction does not change."
 msgstr ""
+"角色会用他们的新皮肤上的阵营来遮掩他们在肖像上或在图鉴的阵营，但是他们的真实"
+"阵营不会改变。"
 
 #: CharacterRandomizer.DISGUISE_FACTION.NAME1
 msgctxt "CharacterRandomizer.DISGUISE_FACTION.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.DISGUISE_FACTION.NAME2
 msgctxt "CharacterRandomizer.DISGUISE_FACTION.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.DISGUISE_FACTION.TITLE
 msgctxt "CharacterRandomizer.DISGUISE_FACTION.TITLE"
 msgid "Disguise Faction"
-msgstr ""
+msgstr "遮掩阵营"
 
 #: CharacterRandomizer.DISGUISE_LOC_TABLE.DESC1
 msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.DESC1"
 msgid "Agents will retain their name, title, etc. after getting a new skin."
-msgstr ""
+msgstr "角色会保留原来名字，称呼等，即使替换了皮肤。"
 
 #: CharacterRandomizer.DISGUISE_LOC_TABLE.DESC2
 msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.DESC2"
-msgid "Agents will disguise their name, title, etc. with the name, title, etc. of the new skin."
-msgstr ""
+msgid ""
+"Agents will disguise their name, title, etc. with the name, title, etc. of "
+"the new skin."
+msgstr "角色会用新皮肤上的名字，称呼等来遮掩他们原始的名字，称呼等。"
 
 #: CharacterRandomizer.DISGUISE_LOC_TABLE.NAME1
 msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.DISGUISE_LOC_TABLE.NAME2
 msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.DISGUISE_LOC_TABLE.TITLE
 msgctxt "CharacterRandomizer.DISGUISE_LOC_TABLE.TITLE"
 msgid "Disguise Loc Table"
-msgstr ""
+msgstr "遮掩名字（我真不知道怎么翻译）"
 
 #: CharacterRandomizer.DISGUISE_PORTRAIT.DESC1
 msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.DESC1"
-msgid "Agents will retain the original portrait, even after getting a new skin."
-msgstr ""
+msgid ""
+"Agents will retain the original portrait, even after getting a new skin."
+msgstr "角色会保留原来的肖像。"
 
 #: CharacterRandomizer.DISGUISE_PORTRAIT.DESC2
 msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.DESC2"
 msgid "Agents will disguise their portrait with the portrait of the new skin."
-msgstr ""
+msgstr "角色会用新皮肤的肖像遮掩他们原始的肖像。"
 
 #: CharacterRandomizer.DISGUISE_PORTRAIT.NAME1
 msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.DISGUISE_PORTRAIT.NAME2
 msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.DISGUISE_PORTRAIT.TITLE
 msgctxt "CharacterRandomizer.DISGUISE_PORTRAIT.TITLE"
 msgid "Disguise Portrait"
-msgstr ""
+msgstr "遮掩肖像"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.DESC1
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC1"
 msgid "Don't randomize NPCs."
-msgstr ""
+msgstr "不随机替换NPC。"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.DESC2
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC2"
-msgid "Randomize all NPCs in a single group, without separating them by strength."
-msgstr ""
+msgid ""
+"Randomize all NPCs in a single group, without separating them by strength."
+msgstr "所有NPC一起随机替换，不将他们按战斗力分类。"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.DESC3
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC3"
-msgid "NPCs will be randomized with other NPCs who are up to 1.5 combat strengths with each other."
-msgstr ""
+msgid ""
+"NPCs will be randomized with other NPCs who are up to 1.5 combat strengths "
+"with each other."
+msgstr "NPC会和其他1.5战斗力以内的NPC一起随机替换。"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.DESC4
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.DESC4"
-msgid "NPCs will be randomized with other NPCs who are up to 0.5 combat strengths with each other."
-msgstr ""
+msgid ""
+"NPCs will be randomized with other NPCs who are up to 0.5 combat strengths "
+"with each other."
+msgstr "NPC会和其他0.5战斗力以内的NPC一起随机替换。"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.NAME1
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.NAME1"
 msgid "No Randomization"
-msgstr ""
+msgstr "无随机化"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.NAME2
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.NAME2"
 msgid "No Grouping"
-msgstr ""
+msgstr "不分组"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.NAME3
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.NAME3"
 msgid "Minor Grouping"
-msgstr ""
+msgstr "简单分组"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.NAME4
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.NAME4"
 msgid "Strict Grouping"
-msgstr ""
+msgstr "严格分组"
 
 #: CharacterRandomizer.GROUP_BY_STRENGTH.TITLE
 msgctxt "CharacterRandomizer.GROUP_BY_STRENGTH.TITLE"
 msgid "Group By Strength"
-msgstr ""
+msgstr "按强度分类"
 
 #: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC1
 msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC1"
 msgid "Agents will still display their boons, banes, and death loots."
-msgstr ""
+msgstr "角色仍然会展示他们的恩惠、诅咒和战利品。"
 
 #: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC2
 msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.DESC2"
-msgid "When a skin randomizer mutator is selected, agents will hide their boons, banes, and death loots until you acquire them so you can't deduce their identity based on that."
+msgid ""
+"When a skin randomizer mutator is selected, agents will hide their boons, "
+"banes, and death loots until you acquire them so you can't deduce their "
+"identity based on that."
 msgstr ""
+"当选择一个皮肤随机器时，角色将隐藏他们的恩惠、诅咒和战利品，直到你获得它们，"
+"这样你不可能从这些信息来推断出他们的身份。"
 
 #: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.NAME1
 msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.NAME2
 msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.TITLE
 msgctxt "CharacterRandomizer.OBFUSCATE_SOCIAL_GRAFTS.TITLE"
 msgid "Obfuscate Social Grafts"
-msgstr ""
+msgstr "屏蔽社交移植物"
 
 #: CharacterRandomizer.RETAIN_CONTENT_ID.DESC1
 msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.DESC1"
-msgid "Agents don't retain their original content ID after replacement. (Not Recommended)"
-msgstr ""
+msgid ""
+"Agents don't retain their original content ID after replacement. (Not "
+"Recommended)"
+msgstr "角色在替换后不保留其原始的ID。（不推荐）"
 
 #: CharacterRandomizer.RETAIN_CONTENT_ID.DESC2
 msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.DESC2"
-msgid "Agents retain their original content ID after replacement. (Recommended)"
-msgstr ""
+msgid ""
+"Agents retain their original content ID after replacement. (Recommended)"
+msgstr "角色在替换后保留其原始的ID。（推荐）"
 
 #: CharacterRandomizer.RETAIN_CONTENT_ID.NAME1
 msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.RETAIN_CONTENT_ID.NAME2
 msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.RETAIN_CONTENT_ID.TITLE
 msgctxt "CharacterRandomizer.RETAIN_CONTENT_ID.TITLE"
 msgid "Retain Content ID"
-msgstr ""
+msgstr "保留角色ID"
 
 #: CharacterRandomizer.RETAIN_FACTION.DESC1
 msgctxt "CharacterRandomizer.RETAIN_FACTION.DESC1"
-msgid "Agents don't display their original faction after replacement, but will still keep their original faction."
-msgstr ""
+msgid ""
+"Agents don't display their original faction after replacement, but will "
+"still keep their original faction."
+msgstr "角色在替换后不显示其原始阵营，但仍会保留其原始阵营。"
 
 #: CharacterRandomizer.RETAIN_FACTION.DESC2
 msgctxt "CharacterRandomizer.RETAIN_FACTION.DESC2"
-msgid "Agents retain their original faction after replacement, which will be reflected on their portrait."
-msgstr ""
+msgid ""
+"Agents retain their original faction after replacement, which will be "
+"reflected on their portrait."
+msgstr "角色在替换后保留其原始阵营，而这将只反映在他们的肖像上。"
 
 #: CharacterRandomizer.RETAIN_FACTION.NAME1
 msgctxt "CharacterRandomizer.RETAIN_FACTION.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.RETAIN_FACTION.NAME2
 msgctxt "CharacterRandomizer.RETAIN_FACTION.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.RETAIN_FACTION.TITLE
 msgctxt "CharacterRandomizer.RETAIN_FACTION.TITLE"
 msgid "Retain Faction(UI only)"
-msgstr ""
+msgstr "保留阵营（仅限于UI）"
 
 #: CharacterRandomizer.RETAIN_STRENGTH.DESC1
 msgctxt "CharacterRandomizer.RETAIN_STRENGTH.DESC1"
-msgid "Agents don't retain their original renown and combat strength after replacement, making combat/negotiation balancing reflect their true strengths."
+msgid ""
+"Agents don't retain their original renown and combat strength after "
+"replacement, making combat/negotiation balancing reflect their true "
+"strengths."
 msgstr ""
+"角色在更换后不会保留其原有的声望和战斗力，而这会让战斗/协商更加平衡，并反映他"
+"们真正的强度。"
 
 #: CharacterRandomizer.RETAIN_STRENGTH.DESC2
 msgctxt "CharacterRandomizer.RETAIN_STRENGTH.DESC2"
-msgid "Agents retain their original renown and combat strength after replacement, which makes NPC randomizations have effects, even after the initial random assignment."
+msgid ""
+"Agents retain their original renown and combat strength after replacement, "
+"which makes NPC randomizations have effects, even after the initial random "
+"assignment."
 msgstr ""
+"角色在替换后保留其原有的声望和战斗力，这使得即使在最初的随机分配后，NPC随机分"
+"配依然有效果。"
 
 #: CharacterRandomizer.RETAIN_STRENGTH.NAME1
 msgctxt "CharacterRandomizer.RETAIN_STRENGTH.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.RETAIN_STRENGTH.NAME2
 msgctxt "CharacterRandomizer.RETAIN_STRENGTH.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.RETAIN_STRENGTH.TITLE
 msgctxt "CharacterRandomizer.RETAIN_STRENGTH.TITLE"
 msgid "Retain Strength"
-msgstr ""
+msgstr "保留强度"
 
 #: CharacterRandomizer.SEED.TITLE
 msgctxt "CharacterRandomizer.SEED.TITLE"
 msgid "Set Random Seed"
-msgstr ""
+msgstr "设置随机种子"
 
 #: CharacterRandomizer.SEPARATE_BOSS.DESC1
 msgctxt "CharacterRandomizer.SEPARATE_BOSS.DESC1"
 msgid "Allow bosses and other NPCs to mix when randomizing."
-msgstr ""
+msgstr "允许BOSS和其他 NPC 混合随机分配。"
 
 #: CharacterRandomizer.SEPARATE_BOSS.DESC2
 msgctxt "CharacterRandomizer.SEPARATE_BOSS.DESC2"
 msgid "Separate bosses and other NPCs into different random groups."
-msgstr ""
+msgstr "将BOSS和其他 NPC 分成不同的随机组。"
 
 #: CharacterRandomizer.SEPARATE_BOSS.NAME1
 msgctxt "CharacterRandomizer.SEPARATE_BOSS.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.SEPARATE_BOSS.NAME2
 msgctxt "CharacterRandomizer.SEPARATE_BOSS.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.SEPARATE_BOSS.TITLE
 msgctxt "CharacterRandomizer.SEPARATE_BOSS.TITLE"
 msgid "Separate Bosses"
-msgstr ""
+msgstr "分开BOSS"
 
 #: CharacterRandomizer.SEPARATE_UNIQUE.DESC1
 msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.DESC1"
 msgid "Allow unique NPCs and other NPCs to mix when randomizing."
-msgstr ""
+msgstr "允许BOSS和其他 NPC 混合随机分配。"
 
 #: CharacterRandomizer.SEPARATE_UNIQUE.DESC2
 msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.DESC2"
-msgid "Separate unique NPCs and other NPCs into different random groups. If Separate Bosses is also turned on, a unique boss NPC will be grouped with bosses."
+msgid ""
+"Separate unique NPCs and other NPCs into different random groups. If "
+"Separate Bosses is also turned on, a unique boss NPC will be grouped with "
+"bosses."
 msgstr ""
+"将独特的NPC和其他 NPC 分成不同的随机组。如果分开BOSS也被选择，一个独特的BOSS"
+"会和其他BOSS一起分配。"
 
 #: CharacterRandomizer.SEPARATE_UNIQUE.NAME1
 msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.SEPARATE_UNIQUE.NAME2
 msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.SEPARATE_UNIQUE.TITLE
 msgctxt "CharacterRandomizer.SEPARATE_UNIQUE.TITLE"
 msgid "Separate Uniques"
-msgstr ""
+msgstr "分开独特NPC"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC1
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC1"
 msgid "Don't randomize unique NPCs."
-msgstr ""
+msgstr "不随机替换独特NPC。"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC2
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC2"
-msgid "Randomize all unique NPCs in a single group, without separating them by strength."
-msgstr ""
+msgid ""
+"Randomize all unique NPCs in a single group, without separating them by "
+"strength."
+msgstr "所有独特NPC一起随机替换，不将他们按战斗力分类。"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC3
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC3"
-msgid "Unique NPCs will be randomized with other Unique NPCs who are up to 1.5 combat strengths with each other."
-msgstr ""
+msgid ""
+"Unique NPCs will be randomized with other Unique NPCs who are up to 1.5 "
+"combat strengths with each other."
+msgstr "独特NPC会和其他1.5战斗力以内的NPC一起随机替换。"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC4
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.DESC4"
-msgid "Unique NPCs will be randomized with other Unique NPCs who are up to 0.5 combat strengths with each other."
-msgstr ""
+msgid ""
+"Unique NPCs will be randomized with other Unique NPCs who are up to 0.5 "
+"combat strengths with each other."
+msgstr "独特NPC会和其他0.5战斗力以内的NPC一起随机替换。"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME1
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME1"
 msgid "No Randomization"
-msgstr ""
+msgstr "无随机化"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME2
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME2"
 msgid "No Grouping"
-msgstr ""
+msgstr "不分组"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME3
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME3"
 msgid "Minor Grouping"
-msgstr ""
+msgstr "简单分组"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME4
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.NAME4"
 msgid "Strict Grouping"
-msgstr ""
+msgstr "严格分组"
 
 #: CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.TITLE
 msgctxt "CharacterRandomizer.UNIQUE_GROUP_BY_STRENGTH.TITLE"
 msgid "Group By Strength(Uniques)"
-msgstr ""
+msgstr "按强度分类（独特）"
 
 #: CharacterRandomizer.USE_NEW_ANIM.DESC1
 msgctxt "CharacterRandomizer.USE_NEW_ANIM.DESC1"
-msgid "Agents will use their original character animations, which means they will carry their original weapon, etc. (Only applies to humanoid characters)"
+msgid ""
+"Agents will use their original character animations, which means they will "
+"carry their original weapon, etc. (Only applies to humanoid characters)"
 msgstr ""
+"角色将使用他们本身的角色动画，这意味着他们将携带他们的原始武器，等等。（仅适"
+"用于人形角色）"
 
 #: CharacterRandomizer.USE_NEW_ANIM.DESC2
 msgctxt "CharacterRandomizer.USE_NEW_ANIM.DESC2"
-msgid "Agents will use their disguise's character animations, which means they will carry ther disguise's weapon, etc. (Only applies to humanoid characters)"
+msgid ""
+"Agents will use their disguise's character animations, which means they will "
+"carry ther disguise's weapon, etc. (Only applies to humanoid characters)"
 msgstr ""
+"角色将使用他们的伪装的角色动画，这意味着他们将携带伪装的武器，等等。（仅适用"
+"于人形角色）"
 
 #: CharacterRandomizer.USE_NEW_ANIM.NAME1
 msgctxt "CharacterRandomizer.USE_NEW_ANIM.NAME1"
 msgid "False"
-msgstr ""
+msgstr "关"
 
 #: CharacterRandomizer.USE_NEW_ANIM.NAME2
 msgctxt "CharacterRandomizer.USE_NEW_ANIM.NAME2"
 msgid "True"
-msgstr ""
+msgstr "开"
 
 #: CharacterRandomizer.USE_NEW_ANIM.TITLE
 msgctxt "CharacterRandomizer.USE_NEW_ANIM.TITLE"
 msgid "Use New Character Animation(Skin Randomizer)"
-msgstr ""
+msgstr "使用新角色的动画（皮肤随机器）"
 
 #: GRAFT.OBFUSCATE_SOCIAL_GRAFTS.DESC
 msgctxt "GRAFT.OBFUSCATE_SOCIAL_GRAFTS.DESC"
-msgid "When this mutator is on, all social grafts(boons/banes) and death loots are hidden even if you unlocked them previously."
+msgid ""
+"When this mutator is on, all social grafts(boons/banes) and death loots are "
+"hidden even if you unlocked them previously."
 msgstr ""
+"当这个突变器启用时，所有的社会移植物（恩惠/诅咒）和战利品都会被隐藏，即使你以"
+"前解锁过它们。"
 
 #: GRAFT.OBFUSCATE_SOCIAL_GRAFTS.NAME
 msgctxt "GRAFT.OBFUSCATE_SOCIAL_GRAFTS.NAME"
 msgid "Obfuscate Social Grafts"
-msgstr ""
+msgstr "屏蔽社交移植物"
 
 #: GRAFT.RANDOMIZER_AGENT.DESC
 msgctxt "GRAFT.RANDOMIZER_AGENT.DESC"
-msgid "Whenever an NPC will be created, another random NPC will be created in their place instead. This is the base mutator for other Agent Randomizer mutators, and is completely customizable."
+msgid ""
+"Whenever an NPC will be created, another random NPC will be created in their "
+"place instead. This is the base mutator for other Agent Randomizer mutators, "
+"and is completely customizable."
 msgstr ""
+"当一个新的NPC将要生成时，另外一个随机NPC会替代原来的NPC。这是所有角色随机器突"
+"变器的基本突变器，而且可以完全自定义。"
 
 #: GRAFT.RANDOMIZER_AGENT.NAME
 msgctxt "GRAFT.RANDOMIZER_AGENT.NAME"
 msgid "Agent Randomizer"
-msgstr ""
+msgstr "角色随机器"
 
 #: GRAFT.RANDOMIZER_AGENT_BALANCED.DESC
 msgctxt "GRAFT.RANDOMIZER_AGENT_BALANCED.DESC"
-msgid "For those who wants randomness, but doesn't want to cause a huge imbalance. Behaves like the base mutator, except bosses are separated from normal agents, and there are minor grouping by agent strengths."
+msgid ""
+"For those who wants randomness, but doesn't want to cause a huge imbalance. "
+"Behaves like the base mutator, except bosses are separated from normal "
+"agents, and there are minor grouping by agent strengths."
 msgstr ""
+"这是给那些谁想要随机性， 但不想让这个游戏太不平衡的人。行为类似于基本突变器，"
+"除了BOSS与普通角色分开随机，并且按角色战斗力进行简单分组。"
 
 #: GRAFT.RANDOMIZER_AGENT_BALANCED.NAME
 msgctxt "GRAFT.RANDOMIZER_AGENT_BALANCED.NAME"
 msgid "Agent Randomizer(Balanced)"
-msgstr ""
+msgstr "角色随机器（平衡）"
 
 #: GRAFT.RANDOMIZER_AGENT_CHAOS.DESC
 msgctxt "GRAFT.RANDOMIZER_AGENT_CHAOS.DESC"
-msgid "All agents are randomized, no filtering! Behaves like the base mutator, except no separation of characters, and no grouping by agent strengths."
+msgid ""
+"All agents are randomized, no filtering! Behaves like the base mutator, "
+"except no separation of characters, and no grouping by agent strengths."
 msgstr ""
+"所有角色一起随机，没有过滤！行为类似于基本突变器，除了角色不分离，而且角色不"
+"按战斗力分组。"
 
 #: GRAFT.RANDOMIZER_AGENT_CHAOS.NAME
 msgctxt "GRAFT.RANDOMIZER_AGENT_CHAOS.NAME"
 msgid "Agent Randomizer(Chaos)"
-msgstr ""
+msgstr "角色随机器（混沌）"
 
 #: GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.DESC
 msgctxt "GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.DESC"
-msgid "For those who wants the unique NPCs to be randomized, but doesn't want the generic ones to be randomized. Behaves like the base mutator, except regular NPCs are not randomized."
+msgid ""
+"For those who wants the unique NPCs to be randomized, but doesn't want the "
+"generic ones to be randomized. Behaves like the base mutator, except regular "
+"NPCs are not randomized."
 msgstr ""
+"这是给那些希望随机化独特NPC， 但不希望随机化一般NPC。行为类似于基本突变器，但"
+"常规 NPC 不随机化。"
 
 #: GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.NAME
 msgctxt "GRAFT.RANDOMIZER_AGENT_UNIQUE_ONLY.NAME"
 msgid "Agent Randomizer(Unique Only)"
-msgstr ""
+msgstr "角色随机器（只允许独特NPC）"
 
 #: GRAFT.RANDOMIZER_SKIN.DESC
 msgctxt "GRAFT.RANDOMIZER_SKIN.DESC"
-msgid "Whenever an NPC will be created, another random NPC's skin will be applied. This is the base mutator for other Skin Randomizer mutators, and is completely customizable."
+msgid ""
+"Whenever an NPC will be created, another random NPC's skin will be applied. "
+"This is the base mutator for other Skin Randomizer mutators, and is "
+"completely customizable."
 msgstr ""
+"当一个新的NPC将要生成时，另外一个随机NPC的皮肤会替代原来的皮肤。这是所有皮肤"
+"随机器突变器的基本突变器，而且可以完全自定义。"
 
 #: GRAFT.RANDOMIZER_SKIN.NAME
 msgctxt "GRAFT.RANDOMIZER_SKIN.NAME"
 msgid "Skin Randomizer"
-msgstr ""
+msgstr "皮肤随机器"
 
 #: GRAFT.RANDOMIZER_SKIN_BALANCED.DESC
 msgctxt "GRAFT.RANDOMIZER_SKIN_BALANCED.DESC"
-msgid "For those who wants randomness, but still want the skins to fit the combat strength range. Behaves like the base mutator, except bosses are separated from normal agents, and there are minor grouping by agent strengths."
+msgid ""
+"For those who wants randomness, but still want the skins to fit the combat "
+"strength range. Behaves like the base mutator, except bosses are separated "
+"from normal agents, and there are minor grouping by agent strengths."
 msgstr ""
+"这是给那些谁想要随机性， 但仍想让角色的皮肤适合他的战斗力范围的人。行为类似于"
+"基本突变器，除了BOSS与普通角色分开随机，并且按角色战斗力进行简单分组。"
 
 #: GRAFT.RANDOMIZER_SKIN_BALANCED.NAME
 msgctxt "GRAFT.RANDOMIZER_SKIN_BALANCED.NAME"
 msgid "Skins Randomizer(Balanced)"
-msgstr ""
+msgstr "皮肤随机器（平衡）"
 
 #: GRAFT.RANDOMIZER_SKIN_CHAOS.DESC
 msgctxt "GRAFT.RANDOMIZER_SKIN_CHAOS.DESC"
-msgid "All skins are randomized, no filtering! Behaves like the base mutator, except no separation of characters, and no grouping by agent strengths."
+msgid ""
+"All skins are randomized, no filtering! Behaves like the base mutator, "
+"except no separation of characters, and no grouping by agent strengths."
 msgstr ""
+"所有角色一起随机，没有过滤！行为类似于基本突变器，除了角色不分离，而且角色不"
+"按战斗力分组。"
 
 #: GRAFT.RANDOMIZER_SKIN_CHAOS.NAME
 msgctxt "GRAFT.RANDOMIZER_SKIN_CHAOS.NAME"
 msgid "Skins Randomizer(Chaos)"
-msgstr ""
+msgstr "皮肤随机器（混沌）"
 
 #: GRAFT.RANDOMIZER_SKIN_MASK.DESC
 msgctxt "GRAFT.RANDOMIZER_SKIN_MASK.DESC"
-msgid "For those who enjoys mystery novels or movies. Behaves like Skins Randomizer(Chaos), but all information regarding the original NPCs are obfuscated to the best of my abilities."
+msgid ""
+"For those who enjoys mystery novels or movies. Behaves like Skins "
+"Randomizer(Chaos), but all information regarding the original NPCs are "
+"obfuscated to the best of my abilities."
 msgstr ""
+"这是给那些喜欢神秘小说或电影的人。行为像皮肤随机器（混沌），但所有关于原始NPC"
+"的信息被我尽量屏蔽。"
 
 #: GRAFT.RANDOMIZER_SKIN_MASK.NAME
 msgctxt "GRAFT.RANDOMIZER_SKIN_MASK.NAME"
 msgid "Skins Randomizer(Total Disguise)"
-msgstr ""
+msgstr "皮肤随机器（完全遮掩）"
 
 #: GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.DESC
 msgctxt "GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.DESC"
-msgid "For those who wants the unique NPCs to be randomized, but doesn't want the generic ones to be randomized. Behaves like the base mutator, except regular NPCs are not randomized."
+msgid ""
+"For those who wants the unique NPCs to be randomized, but doesn't want the "
+"generic ones to be randomized. Behaves like the base mutator, except regular "
+"NPCs are not randomized."
 msgstr ""
+"对于那些希望随机化独特NPC， 但不希望随机化一般NPC。行为类似于基本突变器，但常"
+"规 NPC 不随机化。"
 
 #: GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.NAME
 msgctxt "GRAFT.RANDOMIZER_SKIN_UNIQUE_ONLY.NAME"
 msgid "Skins Randomizer(Unique Only)"
-msgstr ""
+msgstr "皮肤随机器（只允许独特NPC）"
 
 #: RANDOMIZER_SETTINGS.ENTER_SEED
 msgctxt "RANDOMIZER_SETTINGS.ENTER_SEED"
 msgid "Enter a seed"
-msgstr ""
+msgstr "输入一个种子"
 
 #: RANDOMIZER_SETTINGS.ENTER_SEED_DESC
 msgctxt "RANDOMIZER_SETTINGS.ENTER_SEED_DESC"
 msgid "Enter a number or leave it blank."
-msgstr ""
+msgstr "输入一个数字，或者什么都不输入。"
 
 #: RANDOMIZER_SETTINGS.INVALID_SEED
 msgctxt "RANDOMIZER_SETTINGS.INVALID_SEED"
 msgid "Invalid Seed"
-msgstr ""
+msgstr "非法种子"
 
 #: RANDOMIZER_SETTINGS.INVALID_SEED_DESC
 msgctxt "RANDOMIZER_SETTINGS.INVALID_SEED_DESC"
 msgid "Please insert a number or leave it blank."
-msgstr ""
+msgstr "请输入一个数字，或者什么都不输入。"
 
 #: RANDOMIZER_SETTINGS.SEED_SET
 msgctxt "RANDOMIZER_SETTINGS.SEED_SET"
 msgid "Seed Set!"
-msgstr ""
+msgstr "种子已设定！"
 
 #: RANDOMIZER_SETTINGS.SEED_SET_DESC
 msgctxt "RANDOMIZER_SETTINGS.SEED_SET_DESC"
 msgid "New seed: {1}."
-msgstr ""
+msgstr "新种子：{1}。"
 
 #: RANDOMIZER_SETTINGS.SEED_SET_DESC_NO_SEED
 msgctxt "RANDOMIZER_SETTINGS.SEED_SET_DESC_NO_SEED"
 msgid "The seed is random every time you start a run."
-msgstr ""
+msgstr "每开始新的一局时，会分配一个随机的种子。"
 
 #: RANDOMIZER_STRINGS.RANDOM_SEED
 msgctxt "RANDOMIZER_STRINGS.RANDOM_SEED"
 msgid "<#HILITE>(A random seed will be assigned at the start of a new run)</>"
-msgstr ""
+msgstr "<#HILITE>（一个随机的随机种子会在这局开始时被选择）</>"
 
 #: RANDOMIZER_STRINGS.SEED
 msgctxt "RANDOMIZER_STRINGS.SEED"
-msgid "<#HILITE>(Seed for this run: {1}.)</>\n<#HILITE>(Seed for this mutator: {2}.)</>"
+msgid ""
+"<#HILITE>(Seed for this run: {1}.)</>\n"
+"<#HILITE>(Seed for this mutator: {2}.)</>"
 msgstr ""
-
+"<#HILITE>(这一局的种子：{1}。)</>\n"
+"<#HILITE>(这一突变器的种子：{2}。)</>"

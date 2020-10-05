@@ -14,6 +14,18 @@ local function OnPreLoad(mod)
         local name = filepath:match( "(.+)[.]lua$" )
         require(name)
     end
+    for k, filepath in ipairs( filepath.list_files( "CharacterRandomizer:loc", "*.po", true )) do
+        local name = filepath:match( "(.+)[.]po$" )
+        local lang_id = name:match("([_%w]+)$")
+        lang_id = lang_id:gsub("_", "-")
+        -- require(name)
+        print(lang_id)
+        for id, data in pairs(Content.GetLocalizations()) do
+            if data.default_languages and table.arraycontains(data.default_languages, lang_id) then
+                Content.AddPOFileToLocalization(id, filepath)
+            end
+        end
+    end
 end
 local function OnLoad(mod)
     rawset(_G, "CURRENT_MOD_ID", mod.id)
@@ -21,6 +33,17 @@ local function OnLoad(mod)
         RANDOMIZER_STRINGS = {
             SEED = "<#HILITE>(Seed for this run: {1}.)</>\n<#HILITE>(Seed for this mutator: {2}.)</>",
             RANDOM_SEED = "<#HILITE>(A random seed will be assigned at the start of a new run)</>",
+        },
+        RANDOMIZER_SETTINGS = {
+            ENTER_SEED = "Enter a seed",
+            ENTER_SEED_DESC = "Enter a number or leave it blank.",
+
+            INVALID_SEED = "Invalid Seed",
+            INVALID_SEED_DESC = "Please insert a number or leave it blank.",
+
+            SEED_SET = "Seed Set!",
+            SEED_SET_DESC = "New seed: {1}.",
+            SEED_SET_DESC_NO_SEED = "The seed is random every time you start a run.",
         },
     })
     
@@ -30,6 +53,34 @@ local function OnLoad(mod)
     require "CharacterRandomizer:script/mutators"
 end
 local MOD_OPTIONS = {
+    {
+        title = "Set Random Seed",
+        button = true,
+        key = "seed",
+        -- title = "Set Random Seed",
+        desc = "Set a random seed for the skin/agent randomizer. Leave it blank for a random seed each time.",
+        on_click = function()
+            UIHelpers.EditString( 
+                LOC"RANDOMIZER_SETTINGS.ENTER_SEED", LOC"RANDOMIZER_SETTINGS.ENTER_SEED_DESC",
+                Content.GetModSetting(mod, "seed") and tostring(Content.GetModSetting(mod, "seed")) or "", 
+                function( val )
+                    if not val then return end
+                    val = val and tonumber(val) or val
+                    if type(val) == "string" and val ~= "" then
+                        -- val = engine.inst:HashString(val)
+                        UIHelpers.InfoPopup( LOC"RANDOMIZER_SETTINGS.INVALID_SEED", LOC"RANDOMIZER_SETTINGS.INVALID_SEED_DESC" )
+                        return
+                    end
+                    if val and type(val) == "number" then
+                        Content.SetModSetting(mod, "seed", val)
+                        UIHelpers.InfoPopup( LOC"RANDOMIZER_SETTINGS.SEED_SET", loc.format(LOC"RANDOMIZER_SETTINGS.SEED_SET_DESC", val) )
+                    else
+                        Content.SetModSetting(mod, "seed", false)
+                        UIHelpers.InfoPopup( LOC"RANDOMIZER_SETTINGS.SEED_SET", LOC"RANDOMIZER_SETTINGS.SEED_SET_DESC_NO_SEED")
+                    end
+                end )
+        end,
+    },
     {
         title = "Group By Strength",
         spinner = true,
@@ -214,7 +265,7 @@ local MOD_OPTIONS = {
 }
 return {
     alias = "CharacterRandomizer",
-    version = "0.1.1",
+    version = "0.1.2",
 
     mod_options = MOD_OPTIONS,
 
@@ -225,4 +276,6 @@ return {
     title = "Character Randomizer",
     description = "This mod adds two major class of mutators: Agent Randomizer and Skin Randomizer. With tons of customizations on the randomization process, this mod will break all rules of the existing game.",
     previewImagePath = "preview.png",
+
+    load_after = {"CHS", "CrossCharacterCampaign"},
 }
