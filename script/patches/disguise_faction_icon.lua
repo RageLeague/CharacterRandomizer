@@ -32,8 +32,9 @@ Widget.CharacterPortrait.SetCharacter = function(self, agent)
     -- print("post faction id:" .. (agent.faction_id or "nil"))
     return self
 end
-local old_fn2 = Widget.PeopleCompendiumDetailsPopup.Refresh
-Widget.PeopleCompendiumDetailsPopup.Refresh = function(self, agent)
+local PopUp = Widget.PeopleCompendiumDetailsPopup or Screen.PeopleCompendiumDetailsScreen
+local old_fn2 = PopUp.Refresh
+PopUp.Refresh = function(self, agent)
     -- local do_swap = false
     local old_faction_id = rawget(agent, "faction_id")
     if agent and agent.original_agent and not (agent.original_data and agent.original_data.retain_faction) then

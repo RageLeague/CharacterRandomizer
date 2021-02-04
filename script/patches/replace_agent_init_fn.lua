@@ -21,8 +21,10 @@ if not rawget(_G, patch_id) then
             new_skin = Content.GetCharacterSkin(replacement.new_uuid)
         end
         
-        print(loc.format("Expected {1}:{2}, but actually created {3}:{4} lol", content_id, skin_table and skin_table.uuid, new_id, new_skin and new_skin.uuid))
-        
+        if content_id ~= new_id or (skin_table and skin_table.uuid) ~= (new_skin and new_skin.uuid) then
+            print(loc.format("Expected {1}:{2}, but actually created {3}:{4} lol", content_id, skin_table and skin_table.uuid, new_id, new_skin and new_skin.uuid))
+        end
+
         old_fn(self, new_id, new_skin)
 
         -- if replacement.new_skin_overrides then

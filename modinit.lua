@@ -263,9 +263,18 @@ local MOD_OPTIONS = {
         },
     },
 }
+for i, opt in ipairs(MOD_OPTIONS) do
+    if opt.values then
+        for j, val in ipairs(opt.values) do
+            if val.name then
+                val.title = val.name
+            end
+        end
+    end
+end
 return {
     alias = "CharacterRandomizer",
-    version = "0.2.0",
+    version = "0.2.1",
 
     mod_options = MOD_OPTIONS,
 
