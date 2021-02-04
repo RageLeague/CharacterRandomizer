@@ -2,7 +2,7 @@
 
 A mod that allows you to break the natural order of the game by randomizing the characters.
 
-Version: 0.2.0
+Version: 0.2.1
 
 Author: RageLeague
 
@@ -49,6 +49,10 @@ If you are in the Experimental Branch, you can go to the "Mods" tabs in the opti
 **Note: The customizations only has effects at the start of the run when you enabled the mutator(s). If you change the settings after starting a run, it will not affect that run.**
 
 ## Changelog
+
+### 0.2.1
+
+* Fix crash in experimental because Widget.PeopleCompendiumDetailsPopup is renamed to Screen.PeopleCompendiumDetailsScreen.
 
 ### 0.2.0
 
