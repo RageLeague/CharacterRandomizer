@@ -1,3 +1,10 @@
+local patch_id = "REPLACE_SAVE_DISGUISE_DATA"
+if rawget(_G, patch_id) then
+    return
+end
+rawset(_G, patch_id, true)
+print("Loaded patch:"..patch_id)
+
 local old_fn = Agent.Save
 
 Agent.Save = function(self)
@@ -22,5 +29,5 @@ Agent.Load = function(self)
         self.original_agent = Agent.CreateDummyAgent(self.original_data.content_id, self.original_data.uuid)
     end
     old_load(self)
-    
+
 end
