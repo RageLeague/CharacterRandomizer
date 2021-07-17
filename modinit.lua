@@ -46,7 +46,7 @@ local function OnLoad(mod)
             SEED_SET_DESC_NO_SEED = "The seed is random every time you start a run.",
         },
     })
-    
+
     -- Content.ReloadConversation()
     -- so it can store the current mod id locally
     require "CharacterRandomizer:script/collect_settings"
@@ -60,9 +60,9 @@ local MOD_OPTIONS = {
         -- title = "Set Random Seed",
         desc = "Set a random seed for the skin/agent randomizer. Leave it blank for a random seed each time.",
         on_click = function()
-            UIHelpers.EditString( 
+            UIHelpers.EditString(
                 LOC"RANDOMIZER_SETTINGS.ENTER_SEED", LOC"RANDOMIZER_SETTINGS.ENTER_SEED_DESC",
-                Content.GetModSetting(mod, "seed") and tostring(Content.GetModSetting(mod, "seed")) or "", 
+                Content.GetModSetting(mod, "seed") and tostring(Content.GetModSetting(mod, "seed")) or "",
                 function( val )
                     if not val then return end
                     val = val and tonumber(val) or val
@@ -274,7 +274,7 @@ for i, opt in ipairs(MOD_OPTIONS) do
 end
 return {
     alias = "CharacterRandomizer",
-    version = "0.2.1",
+    version = "0.3.0",
 
     mod_options = MOD_OPTIONS,
 

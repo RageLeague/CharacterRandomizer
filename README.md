@@ -50,6 +50,10 @@ If you are in the Experimental Branch, you can go to the "Mods" tabs in the opti
 
 ## Changelog
 
+### 0.3.0
+
+* Characters now use the original character's tags to hopefully fix some issues with plot armors.
+
 ### 0.2.1
 
 * Fix crash in experimental because Widget.PeopleCompendiumDetailsPopup is renamed to Screen.PeopleCompendiumDetailsScreen.
